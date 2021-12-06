@@ -4,7 +4,7 @@
 
 팀장:박상우 팀원 : 김찬영 , 강재은
 
-자세한 사항은 [최종보고서]()참조
+## 자세한 사항은 [최종보고서](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/commit/19236cc4d318d67ba16bfcc39468c792f896232f) 참조
 
 ### <1차 4/12> - Login.html(로그인) , Signup.html(회원가입) 기본틀 작성 , 아이콘 제작 , Main.html기본틀 제작
 #
@@ -55,12 +55,12 @@
 
 ### 박상우,김찬영
  * 매칭시스템 코딩을 위해 데이터 베이스를 기존과 달리 외래키를 이용하여 제작
- * 사용자의정보-[user테이블]()/지원정보-[volapp테이블]()/봉사내용-[volcontents테이블]()
- * 내가 생성한 봉사활동/내가 신청한 봉사활동 출력([mycreatevol.php,myappvol.php]())
+ * 사용자의정보-[user테이블](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/database/user.sql)/지원정보-[volapp테이블](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/database/volapp.sql)/봉사내용-[volcontents테이블](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/database/volcontents.sql)
+ * 내가 생성한 봉사활동/내가 신청한 봉사활동 출력([mycreatevol.php](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/mycreatevol.php),[myappvol.php](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/myappvol.php))
  * 생성된 봉사의 제목 클릭시 get형식으로 정보 넘겨주어 출력하는 코드 작성
 
 ### 박상우(추가)
- * 테이블 출력을 위한 기본 css작성,상단 공백 제거를 위한 css작성 -내정보를 비밀번호를 입력해야만 들어갈 수 있도록 작성([informodlogin.php]( ))
+ * 테이블 출력을 위한 기본 css작성,상단 공백 제거를 위한 css작성 -내정보를 비밀번호를 입력해야만 들어갈 수 있도록 작성([informodlogin.php](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/informodlogin.php ))
 
 ### 강재은
  * 고객센터 페이지 제작,정보수정작성
@@ -69,10 +69,10 @@
 ### <8차 5/31>매칭시스템 마무리,최종 테스트 전 마지막 코드작성
 
 ### 박상우,김찬영
--지원하기 클릭시 volapp테이블 안에 봉사num과 지원자 아이디 등록하는 코드 작성([appvol.php]( ) ,[app_db.php]( ))
-지원한 봉사활동을 수락할때 사용자가 선택할 수 있도록 라디오 버튼 생성, 수락하기 누를시 선택된 사람을 제외한 나머지 인원에게는 매칭실패를 알려줌([volunteers.php,choval.php]( ))
-매칭이 완료됨을 알리는 화면(봉사자의 정보를 사용자에게 보여주는 화면 ([matchingend_user.php]( ))
-선택된 봉사자는 마지막 확인버튼을 클릭하여 봉사활동에 지원한 모든 사용자들의 정보를 삭제([matchingend_vol.php]( ))
+-지원하기 클릭시 volapp테이블 안에 봉사num과 지원자 아이디 등록하는 코드 작성([appvol.php](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/appvol.php ) ,[app_db.php](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/app_db.php ))
+지원한 봉사활동을 수락할때 사용자가 선택할 수 있도록 라디오 버튼 생성, 수락하기 누를시 선택된 사람을 제외한 나머지 인원에게는 매칭실패를 알려줌([volunteers.php](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/volunteers.php),[choval.php](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/choval.php ))
+매칭이 완료됨을 알리는 화면(봉사자의 정보를 사용자에게 보여주는 화면 ([matchingend_user.php](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/matchingend_user.php ))
+선택된 봉사자는 마지막 확인버튼을 클릭하여 봉사활동에 지원한 모든 사용자들의 정보를 삭제([matchingend_vol.php](https://github.com/chanyoungkim1/HelpingProject_PHP-MYSQL/blob/main/matchingend_vol.php ))
 
 강재은
 -헤더파일 작성,주민번호->나이추출 알고리즘 작성
